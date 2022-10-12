@@ -1,0 +1,49 @@
+.constast-primary {
+  --background: #e63946;
+}
+.constast-secondary {
+  --background: #457b9d;
+}
+.dark-primary {
+  --background: #90e0ef;
+}
+.dark-primary {
+  --background: #dedbd2;
+}
+.light-primary {
+  --background: #0077b6;
+}
+.light-secondary {
+  --background: #468faf;
+}
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: var(--background);
+}
+button {
+  background-color: var(--background);
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  margin: 30px;
+  padding: 20px;
+}
+.email {
+  padding-bottom: 10px;
+}
+.theme-button-container {
+  padding-top: 10px;
+}
+.remember,
+.theme-toggle,
+.theme-button-container {
+  display: flex;
+  justify-content: center;
+}
